@@ -8,6 +8,22 @@ const routes: Routes = [
     path: 'dashboard',
     loadChildren: () => import('./student/dashboard/dashboard.module').then( m => m.DashboardPageModule)
   },
+  {
+    path: 'dashboard',
+    loadChildren: () => import('./accountant/dashboard/dashboard.module').then( m => m.DashboardPageModule)
+  },
+  {
+    path: 'dashboard',
+    loadChildren: () => import('./teacher/dashboard/dashboard.module').then( m => m.DashboardPageModule)
+  },
+  {
+    path: 'dashboard',
+    loadChildren: () => import('./librarian/dashboard/dashboard.module').then( m => m.DashboardPageModule)
+  },
+  {
+    path: 'dashboard',
+    loadChildren: () => import('./receptionist/dashboard/dashboard.module').then( m => m.DashboardPageModule)
+  },
 ];
 
 @NgModule({
