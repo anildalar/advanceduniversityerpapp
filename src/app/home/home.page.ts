@@ -15,7 +15,7 @@ export class HomePage implements OnInit{
 	ngOnInit() {
 		$(document).ready(function(){
 			//alert(‘JQuery is working!!’);
-			console.log('Everting Is working...');
+			console.log('Everything Is working...');
 			//alert('JQuery Working....');
 		});
 	}
