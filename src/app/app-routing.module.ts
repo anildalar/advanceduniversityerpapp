@@ -31,6 +31,10 @@ const routes: Routes = [
     path: 'homework',
     loadChildren: () => import('./student/homework/homework.module').then( m => m.HomeworkPageModule)
   },
+  {
+    path: 'application',
+    loadChildren: () => import('./student/application/application.module').then( m => m.ApplicationPageModule)
+  },
 
 ];
 
