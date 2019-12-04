@@ -27,7 +27,11 @@ const routes: Routes = [
   {
     path: 'result',
     loadChildren: () => import('./student/result/result.module').then( m => m.ResultPageModule)
+  },  {
+    path: 'homework',
+    loadChildren: () => import('./student/homework/homework.module').then( m => m.HomeworkPageModule)
   },
+
 ];
 
 @NgModule({
